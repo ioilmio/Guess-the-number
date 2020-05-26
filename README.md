@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/ioilmio/Guess-the-number)](https://repl.it/github/ioilmio/Guess-the-number)
+
 # Guess-the-number
 A simple CLI guessing number games
 

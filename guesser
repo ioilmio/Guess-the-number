@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+def guesser
+    num_to_guess = rand(1..15)
+    puts 'Guess a number between 1 and 15'
+    user_choice = ''
+
+    while user_choice != num_to_guess
+        user_choice = gets.chomp.to_i
+        if user_choice > num_to_guess
+            puts 'Number to guess is smaller'
+        elsif  user_choice < num_to_guess
+            puts 'Number to guess is bigger'
+        else
+            puts 'Correct! You Guessed' 
+        end
+    end
+end
+
+guesser
